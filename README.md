@@ -52,23 +52,17 @@ Differential expression analysis performed to identify cluster-specific genes
 
 Clusters annotated using canonical immune cell marker genes
 
-📊 Results
+### Results
 UMAP Visualization
 
-
-
-
 Marker Gene Expression (DotPlot)
-
-
-
 
 Cluster Marker Heatmap
 
 
 
 
-🧬 Identified Cell Types
+### Identified Cell Types
 Cluster	Cell Type
 0	CD14+ Monocytes
 1	CD4 T cells
@@ -82,7 +76,7 @@ Cluster	Cell Type
 9	CD16+ Monocytes
 10	Rare population
 
-🛠 Tools & Libraries
+### Tools & Libraries
 
 R
 
@@ -90,14 +84,14 @@ Seurat
 
 dplyr
 
-📁 Dataset
+### Dataset
 
 Public dataset from 10x Genomics:
 PBMC from a Healthy Donor (~10k cells)
 
 Note: Raw data files are not included. Please download from 10x Genomics and place the .h5 file in the project directory.
 
-🚀 Key Takeaways
+### Key Takeaways
 
 Successfully identified major immune cell populations from scRNA-seq data
 
