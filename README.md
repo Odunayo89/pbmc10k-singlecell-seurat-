@@ -5,7 +5,7 @@ This project demonstrates a complete single-cell RNA-seq (scRNA-seq) analysis wo
 
 The objective is to identify and characterize distinct immune cell populations based on their transcriptional profiles.
 
-🔬 Workflow
+### Workflow
 1. Data Processing
 
 Loaded 10x Genomics HDF5 dataset
