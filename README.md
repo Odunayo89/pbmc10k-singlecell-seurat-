@@ -58,8 +58,6 @@ Marker Gene Expression
 Cluster Marker Heatmap
 
 
-
-
 🧬 Identified Cell Types
 Cluster	Cell Type
 0	CD14+ Monocytes
@@ -74,7 +72,7 @@ Cluster	Cell Type
 9	CD16+ Monocytes
 10	Rare population
 
-🛠 Tools & Libraries
+****🛠 Tools & Libraries
 R
 Seurat
 dplyr
