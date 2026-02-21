@@ -1,5 +1,5 @@
 🧬 Single-Cell RNA-seq Analysis of PBMC (10k Cells) using Seurat
-📌 Overview
+## Overview
 
 This project demonstrates a complete single-cell RNA-seq (scRNA-seq) analysis workflow using Seurat in R. The dataset consists of ~10,000 peripheral blood mononuclear cells (PBMCs) from a healthy donor.
 
