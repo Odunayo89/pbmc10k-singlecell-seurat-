@@ -1,55 +1,54 @@
-🧬 Single-cell RNA-seq Analysis of PBMC 10k (Seurat Workflow)
-Overview
+🧬 Single-Cell RNA-seq Analysis of PBMC (10k Cells) using Seurat
+📌 Overview
 
-This project demonstrates a complete single-cell RNA-seq analysis workflow using Seurat in R, applied to a publicly available 10x Genomics PBMC dataset.
+This project presents a complete single-cell RNA-seq (scRNA-seq) analysis workflow using Seurat in R.
+The dataset consists of ~10,000 peripheral blood mononuclear cells (PBMCs) from a healthy donor.
 
-The analysis includes quality control, normalization, dimensionality reduction, clustering, and biological annotation of immune cell populations.
+The goal is to identify distinct immune cell populations based on transcriptional profiles.
 
-Workflow
+🔬 Workflow
+1. Data Processing
 
-Data loading (10x Genomics HDF5 format)
+Loaded 10x Genomics HDF5 data
 
-Quality control (mitochondrial filtering, feature counts)
+Extracted gene expression matrix (RNA assay only)
 
-Normalization and identification of highly variable genes
+2. Quality Control
 
-Dimensionality reduction (PCA)
+Filtered cells based on:
 
-Graph-based clustering
+Number of detected genes (nFeature_RNA)
 
-Visualization using UMAP
+Total counts (nCount_RNA)
 
-Marker gene identification and cluster annotation
+Mitochondrial gene percentage (%MT)
 
-Key Results
+3. Normalization & Feature Selection
 
-Identification of major immune cell populations:
+Log-normalization to correct sequencing depth
 
-CD4 T cells
+Identification of 2,000 highly variable genes
 
-CD8 T cells
+4. Dimensionality Reduction
 
-B cells
+Principal Component Analysis (PCA)
 
-NK cells
+Elbow plot used to select significant PCs
 
-Monocytes
+5. Clustering
 
-Dendritic cells
+Graph-based clustering (Louvain algorithm)
 
-Tools Used
+Resolution = 0.5
 
-R
+6. Visualization
 
-Seurat
+UMAP for low-dimensional visualization
 
-dplyr
+7. Marker Gene Identification
 
-Dataset
+Differential expression to identify cluster-specific genes
 
-Publicly available dataset from 10x Genomics:
-PBMC from a healthy donor (10k cells)
+8. Cell Type Annotation
 
-Author
-
-Adekunle Ajiboye
+Clusters were annotated based on canonical marker genes.
