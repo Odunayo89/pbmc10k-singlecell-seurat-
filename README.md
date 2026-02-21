@@ -64,16 +64,27 @@ Cluster Marker Heatmap
 
 ### Identified Cell Types
 Cluster	Cell Type
+
 0	CD14+ Monocytes
+
 1	CD4 T cells
+
 2	CD8 T cells
+
 3	Inflammatory Monocytes
+
 4	Activated T cells
+
 5	B cells
+
 6	Mixed/Unknown
+
 7	NK cells
+
 8	Rare population
+
 9	CD16+ Monocytes
+
 10	Rare population
 
 ### Tools & Libraries
